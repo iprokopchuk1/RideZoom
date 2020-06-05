@@ -11,8 +11,9 @@ public class CarrerTest extends BaseTest {
     @Test
     public void testCarrer() {
 
-        homePage = new HomePage(driver);
+//        New comment
 
+        homePage = new HomePage(driver);
         careerPage = homePage.clickCareerButton();
 
         jobsPage = careerPage.clickViewJobsButton();
