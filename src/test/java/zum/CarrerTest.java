@@ -11,18 +11,16 @@ public class CarrerTest extends BaseTest {
     @Test
     public void testCarrer() {
 
-//        New comment
 
         homePage = new HomePage(driver);
+
         careerPage = homePage.clickCareerButton();
 
         jobsPage = careerPage.clickViewJobsButton();
 
         homePage = jobsPage.clickZumHomeButton();
 
-//        Git hub test
 
-//        New Test Created
 
 
 
